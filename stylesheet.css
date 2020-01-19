@@ -2,6 +2,7 @@
   background-color: #d1d1d1;
   border: 6px solid black;
   display: inline-flex;
+  width: 800px;
 }
 
 .flex-item {
@@ -15,22 +16,19 @@
 .item-kibou {
   background-color: #b4bf35;
   border: 2px solid white;
-  width: 500px;
   text-align: left;
 }
 
 .container-2 {
   background-color: #d1d1d1;
   border: 6px solid black;
-  display: inline-flex;
-  height: 100px;
+  display: flex;
   align-items: flex-end;
 }
 
 .item-kasidasi-value {
   background-color: #b96f21;
   border: 2px solid white;
-  width: 150px;
   height: 35px;
   font-size: 1.4rem;
 }
@@ -39,21 +37,20 @@
   background-color: #1c4c56;
   border: 2px solid white;
   height: 40px;
-  width: 60px;
   font-size: 1rem;
 }
 
 .container-3 {
   background-color: #d1d1d1;
   border: 6px solid black;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
 }
 
 .container-4 {
   background-color: #d1d1d1;
   border: 6px solid black;
-  display: inline-flex;
+  display: flex;
 }
 
 .item-jougen {
@@ -74,7 +71,6 @@
 .item-bosyuu {
   background-color: #01243a;
   border: 2px solid white;
-  width: 200px;
   margin-top: 50px;
   text-align: left;
 }
@@ -82,6 +78,5 @@
 .item-bosyuu-value {
   background-color: #aad041;
   border: 2px solid white;
-  width: 200px;
   text-align: right;
 }
